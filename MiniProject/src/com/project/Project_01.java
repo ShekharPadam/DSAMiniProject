@@ -2,7 +2,7 @@ package com.project;
 import java.util.*;
 class patient
 { 
-	int id; 
+int id; 
 String name; 
 int age; 
 String place;
@@ -10,7 +10,7 @@ int room;
 String aDate;
 String dDate;
 String status;
-patient next; //?????
+patient next;
 	
 } 
 
@@ -219,8 +219,8 @@ public static void main(String[] args)
             
             default: {
             	System.out.println("Invalid Entry");
-            }
-        }
-    }
-}
+             }
+          }
+    	}
+	}
 }
